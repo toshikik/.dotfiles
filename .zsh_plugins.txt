@@ -1,0 +1,4 @@
+# .zsh_plugins.txt - comments begin with "#"
+
+romkatv/powerlevel10k
+
