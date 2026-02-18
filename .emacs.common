@@ -6,4 +6,3 @@
 (define-key ctl-z-map "g" 'vc-git-grep)
 (define-key ctl-z-map "=" 'compare-windows)
 
-(load-theme 'classic t)
