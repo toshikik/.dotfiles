@@ -17,9 +17,13 @@ set -g @plugin 'tmux-plugins/tmux-logging'
 # set -g @plugin 'git@github.com:user/plugin'
 # set -g @plugin 'git@bitbucket.com:user/plugin'
 
-set -g mouse on
+# Enable vi-style copy mode
 setw -g mode-keys vi
 
+# Mouse support
+set -g mouse on
+
+# Enable the native clipboard sequence (OSC 52)
 set -g set-clipboard on
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
