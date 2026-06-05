@@ -54,6 +54,9 @@ fi
 if [[ -d $HOME/x-tools/arm-unknown-linux-gnueabi/bin ]]; then
     PATH=$PATH:$HOME/x-tools/arm-unknown-linux-gnueabi/bin
 fi
+if [[ -d $HOME/.local/bin ]]; then
+    PATH=$PATH:$HOME/.local/bin
+fi
 
 # Local Variables:
 # mode: shell-script
